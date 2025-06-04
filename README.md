@@ -31,7 +31,7 @@ Use the following command to clone the repository:
  
 - Navigate to server directory
 ```sh
-cd server # Navigate to the server directory:
+cd backend # Navigate to the server directory:
 ```
 - Install dependencies
 ```sh
@@ -51,7 +51,7 @@ node index.js
 
 - Navigate to the client directory:
 ```sh
-cd client
+cd frontend
 ```
 
 - Run the following command to install the frontend dependencies:
@@ -68,6 +68,7 @@ REACT_APP_BACKEND_URL=http://localhost:3001/
 ```sh
 npm start
 ```
+in the root gitignore(/.idea)
 
 ### Hosting Backend and Frontend in Same Port/URL
 
