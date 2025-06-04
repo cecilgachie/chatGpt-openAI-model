@@ -1,0 +1,1 @@
+# chatGpt-openAI-model
