@@ -15,21 +15,20 @@ If you are looking for a simple HTML/vanilla JavaScript version, check [here]cha
 - Highlight code syntax
 
 ## Technologies Used
-- For client, I used React.js.
-- For server, I used express.
+- For frontend, I used React.js.
+- For backend, I used express.
 
 ## Setup Introduction
 This guide will help you set up the repository on your local machine. Please follow these steps carefully to ensure a smooth setup process.
 
 ### Cloning the repository
-Use the following command to clone the repository:
-```sh
+dowload zip and extract or gitclone using CLI
 
 ```
 
 ### Backend Setup
  
-- Navigate to server directory
+- Navigate to backend directory
 ```sh
 cd backend # Navigate to the server directory:
 ```
@@ -49,7 +48,7 @@ node index.js
 
 ### Frontend Setup
 
-- Navigate to the client directory:
+- Navigate to the frontend directory:
 ```sh
 cd frontend
 ```
@@ -68,17 +67,16 @@ REACT_APP_BACKEND_URL=http://localhost:3001/
 ```sh
 npm start
 ```
-in the root gitignore(/.idea)
+in the root create .gitignore file(/.idea)
 
 ### Hosting Backend and Frontend in Same Port/URL
 
 If you wish to host both the backend and frontend on the same port/URL, follow these steps:
 
-- Build the frontend by running the following command in the `client` directory:
+- Build the frontend by running the following command in the `frontend` directory:
 ```sh
 npm run build
 ```
-- Copy the `build` directory to the `server` directory and rename it to `frontend`.
 
 - Start the backend server using the instructions in the "Backend Setup" section.
 
@@ -96,5 +94,6 @@ npm run build
 This project welcomes contributions and suggestions for improvements. If you have any ideas, please feel free to open an issue or create a pull request.
 
 Thank you for your consideration.
+Yours trully @cecilgachie
 
 
