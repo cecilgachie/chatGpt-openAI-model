@@ -94,6 +94,6 @@ npm run build
 This project welcomes contributions and suggestions for improvements. If you have any ideas, please feel free to open an issue or create a pull request.
 
 Thank you for your consideration.
-Yours trully @cecilgachie
+Yours @cecilgachie
 
 
